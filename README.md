@@ -10,22 +10,22 @@ Data for the time service is sourced from Api Ninjas (http://https://api-ninjas.
 
 
 All images in this project are sourced from Unsplash (https://unsplash.com/) Credit to:
- -Andrew Spencer
- -Stephen Weeks
- -Sonaal Bangera
- -Steven Erixon
- -Eberhard Grossgasteiger
- -Peyman Farmani
- -Tobias Stonjeck
- -Vlad  Bagacian
- -Blake Cheek
- -John Thomas
- -Suhyeon Choi
- -Valentin Muller
- -Thorn Frijns
- -Victor Vasquez
- -Muhammadh Saamy
- -Etienne Delorieu
- -Andre Benz
- -Erwan B
- -Kelly Sikkemma
+-Andrew Spencer
+-Stephen Weeks
+-Sonaal Bangera
+-Steven Erixon
+-Eberhard Grossgasteiger
+-Peyman Farmani
+-Tobias Stonjeck
+-Vlad Bagacian
+-Blake Cheek
+-John Thomas
+-Suhyeon Choi
+-Valentin Muller
+-Thorn Frijns
+-Victor Vasquez
+-Muhammadh Saamy
+-Etienne Delorieu
+-Andre Benz
+-Erwan B
+-Kelly Sikkemma
