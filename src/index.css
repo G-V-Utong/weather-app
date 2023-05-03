@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family: 'montseratt', sans-serif;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Assets/kelly-sikkema-QnezTt1eSYQ-unsplash.jpg);
+  background-size: cover;
+}
+
+.App{
+  background-image: url(./Assets/rainy/valentin-muller-bWtd1ZyEy6w-unsplash.jpg);
+  background-size: cover;
+  background-position:  center;
+  transition: 0.4s ease-out;
+  width: 400px; 
+  height: 850px;
+  margin: auto;
+  margin-top: 2%;
+  justify-content: center;
+  border-radius: 16px;
+  box-shadow: 10px 15px 12px rgba(0, 0, 0, 0.8);
+
+}
+
+.App.sunny-zero{
+  background-image: url(./Assets/sunny/muhammadh-saamy-IUhATCI2T-M-unsplash.jpg);
+}
+.App.sunny-one{
+  background-image: url(./Assets/sunny/ryan-spencer-XGKaRnWjv1c-unsplash.jpg);
+}
+.App.sunny-two{
+  background-image: url(./Assets/sunny/sonaal-bangera-kpDO0woxxec-unsplash.jpg);
+}
+.App.sunny-three{
+  background-image: url(./Assets/sunny/victor-vazquez-8e41lvjiYyQ-unsplash.jpg);
+}
+.App.snow-zero{
+  background-image: url(./Assets/Snowy/andre-benz-Ygum7h8N4Wk-unsplash.jpg);
+}
+.App.snow-one{
+  background-image: url(./Assets/Snowy/andrew-spencer-C9umWS673gc-unsplash.jpg);
+}
+.App.snow-two{
+  background-image: url(./Assets/Snowy/erwan-b-vfXmN6xN9t0-unsplash.jpg);
+}
+.App.snow-three{
+  background-image: url(./Assets/Snowy/etienne-delorieux-r-XORSP-t2I-unsplash.jpg);
+}
+.App.cloudy-zero{
+  background-image: url(./Assets/cloudy/eberhard-grossgasteiger-0Mb_jRfu8cM-unsplash.jpg);
+}
+.App.cloudy-one{
+  background-image: url(./Assets/cloudy/peyman-farmani-c-lVI683QwU-unsplash.jpg);
+}
+.App.cloudy-two{
+  background-image: url(./Assets/cloudy/steven-erixon-MpJPyPRp8sA-unsplash.jpg);
+}
+.App.cloudy-three{
+  background-image: url(./Assets/cloudy/tobias-stonjeck-e_ZxKz3_2Nc-unsplash.jpg);
+}
+
+.App.rainy-zero{
+  background-image: url(./Assets/rainy/blake-cheek-RI46OSD6APY-unsplash.jpg);
+}
+.App.rainy-one{
+  background-image: url(./Assets/rainy/suhyeon-choi-HCDugQDdtfc-unsplash.jpg);
+}
+.App.rainy-two{
+  background-image: url(./Assets/rainy/valentin-muller-bWtd1ZyEy6w-unsplash.jpg);
+}
+.App.rainy-three{
+  background-image: url(./Assets/rainy/vlad-bagacian-xh8ZCQGWBeg-unsplash.jpg);
+}
+
+main {
+  /* min-height: 100vh; */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));;
+  border-radius: 16px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  color:  white;
+  font-size: 20px;
+}
+
+.search-box .search-bar::placeholder{
+  color: rgba(255, 255, 255, 0.7);
+}
+.search-box .search-bar:hover{
+  background-color:  rgba(255, 255, 255, 0.1);
+}
+
+.search-box .search-bar:focus{
+  background-color:  rgba(255, 255, 255, 0.1);
+
+}
+.search-box .glass{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(130%);
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 16px 16px 10px 10px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.location-box .location{
+  color:  white;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50 , 70, 0.5);
+}
+
+.location-box .date{
+  color:  white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50 , 70, 0.5);
+  font-style: italic;
+}
+
+.location-box .time{
+  margin-top: 13px;
+  color:  white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50 , 70, 0.5);
+  font-style: italic;
+}
+
+.weather-box{
+  text-align: center;
+}
+
+.weather-box .temp{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius:  16px;
+  padding: 15px 25px;
+  font-size: 102px;
+  color: white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  text-shadow: 3px 6px rgba(50, 50 , 70, 0.5);
+  font-weight: 700;
+}
+
+.weather-box .weather{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50 , 70, 0.5);
+  
+}
+
+@media screen and (max-width: 450px) {
+  body{
+    min-height: 100vh;
+    font-family: 'montseratt', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    border-radius: none;
+  }
+  .App{
+    width: inherit; 
+    height: 100vh;
+    border-radius: none;
+  }
+
+  main{
+    height: 100vh;
+    border-radius: none;
+  }
+
+  
+}
